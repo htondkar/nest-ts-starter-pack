@@ -4,16 +4,16 @@ This repository is based on the official nestJS starter pack.
 it offers more functionality out of the box, here's the list of
 them:
 
-1.  pre-configured ORM.
+1.  Pre-configured ORM.
 2.  User model already implemented.
 3.  JWT Authentication (passport).
-4.  role-based access control with declarative approach.
-5.  owner-ship access control
+4.  Role-based access control with declarative approach.
+5.  Ownership access control
 6.  Swagger integration.
 7.  Base Service class which provides CRUD out of the box for all models.
-8.  base Entity class with commonly used properties already set.
-9.  validation pipe, auth guard, exception handling in services
-10. interceptors for removing un-wanted properties from response(sensitive data)
+8.  Base Entity class with commonly used properties already set.
+9.  Validation pipe, auth guard, exception handling in services
+10. Interceptors for removing un-wanted properties from response(sensitive data)
 
 ## Requirements
 
