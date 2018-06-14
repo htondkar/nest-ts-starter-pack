@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "noLib": false,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "target": "es6",
+    "sourceMap": true,
+    "allowJs": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "paths": {
+      "Middlewares/*": ["Middlewares/*"],
+      "Entities/*": ["Entities/*"],
+      "Modules/*": ["Modules/*"],
+      "Pipes/*": ["Pipes/*"],
+      "Interceptors/*": ["Interceptors/*"],
+      "dataTransferObjects/*": ["dataTransferObjects/*"],
+      "Services/*": ["Services/*"],
+      "Controllers/*": ["Controllers/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
