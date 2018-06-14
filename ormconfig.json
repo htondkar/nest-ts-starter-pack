@@ -4,7 +4,7 @@
   "port": 3306,
   "username": "root",
   "password": "123456789",
-  "database": "library_test",
+  "database": "nest-starter",
   "entities": ["./src/**/**.entity{.ts,.js}"],
   "synchronize": true,
   "migrationsTableName": "migrations",
